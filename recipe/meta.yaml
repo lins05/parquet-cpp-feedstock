@@ -18,7 +18,7 @@ source:
   sha256: {{ sha256sum }}
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win and not (py35 and win64)]
   features:
     - vc14  # [win and py35]
