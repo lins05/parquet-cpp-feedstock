@@ -1,5 +1,5 @@
 set PARQUET_BUILD_TOOLCHAIN=%LIBRARY_PREFIX%
-set PARQUET_ARROW_VERSION=e9f76e125b836d0fdc0a533e2fee3fca8bf4c1a1
+set PARQUET_ARROW_VERSION=3a84653a3aa00f36f6312a11e58d1daf41dedcee
 
 REM Set short build path to not overcome max obj files path length of 150 characters on Windows
 mkdir C:\bld\build
