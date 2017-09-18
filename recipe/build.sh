@@ -5,9 +5,6 @@ set -x
 
 export PARQUET_BUILD_TOOLCHAIN=$PREFIX
 
-# Use PARQUET_ARROW_VERSION if it's already defined by the caller
-export PARQUET_ARROW_VERSION=${PARQUET_ARROW_VERSION:=b17333482ea1da3728538bc912b1053ba70ed2e7}
-
 mkdir build-dir
 cd build-dir
 
