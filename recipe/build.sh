@@ -20,3 +20,8 @@ cmake \
 
 make -j${CPU_COUNT}
 make install
+
+mkdir -p $PREFIX/bin
+for exe in parquet-dump-schema parquet_reader parquet-scan; do
+    cp release/$exe $PREFIX/bin
+done
